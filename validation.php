@@ -7,11 +7,11 @@ $con=mysqli_connect('remotemysql.com','V9jxftGKr3');
 
 if ($con) 
   {
-		echo "connection successful";
+		echo "no";
   }
 else
 	{
-		echo "no connection";
+		echo "connection successful";
 	}
 
  mysqli_select_db($con,'V9jxftGKr3','ygC3UQB4Gw','V9jxftGKr3');
