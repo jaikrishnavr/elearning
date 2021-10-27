@@ -7,14 +7,15 @@ $con=mysqli_connect('remotemysql.com','V9jxftGKr3','ygC3UQB4Gw','V9jxftGKr3');
 
 if ($con) 
   {
-		echo "no";
+		echo "connection successful";
   }
 else
 	{
-		echo "connection successful";
+		echo "no connection";
+	
 	}
 
- mysqli_select_db($con,'V9jxftGKr3');
+ mysqli_select_db('remotemysql.com','V9jxftGKr3','ygC3UQB4Gw','V9jxftGKr3');
  $name=$_POST['name'];
  $pass=$_POST['password'];
  $email=$_POST['email'];
