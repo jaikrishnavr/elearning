@@ -3,7 +3,7 @@
 session_start();
 
 
-$con=mysqli_connect('remotemysql.com','V9jXftGKr3',ygC3UQB4Gw','V9jXftGKr3');
+$con=mysqli_connect('remotemysql.com','V9jXftGKr3','ygC3UQB4Gw','V9jXftGKr3');
 
 if ($con) 
   {
